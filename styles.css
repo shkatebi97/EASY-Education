@@ -1,5 +1,8 @@
 body{
-    background-color: #ededed;
+    /* background: linear-gradient(-45deg, #68e632, #68e632, #4fab27, #68e632); */
+    background: linear-gradient(-45deg, #cfe600, #cfe600, #35b100, #35b100);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
 }
 header{
     position: absolute;
@@ -10,27 +13,48 @@ header{
     margin: 0;
     padding: 15px;
     list-style-type: none;
-    background-color: #68e632;
-    box-shadow: -1px 2px 5px #4fab27;
+    background-color: #ffffff00;
+    box-shadow: -1px 2px 5px #000000a0;
 }
 header ul li{
     display: inline;
     padding: 20px;
     border-right-style: solid;
     border-right-width: 2px;
-    border-right-color: #4fab27;
+    border-right-color: #000000a0;
 }
 header ul li a:link, a:visited, a:active, a:hover{
     color: white;
     text-decoration: none;
 }
-#about {
-    background-color: white;
+#banner{
+    background-color: #ffffff00;
     margin-top: 85px;
     padding: 20px;
     align-content: center;
     text-align: center;
-    box-shadow: 0px 1px 5px #4fab27;
+    /* box-shadow: 0px 1px 5px #000000a0; */
+    font-size: xx-large;
+    padding: 345px 0;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+#about {
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px;
+    align-content: center;
+    text-align: center;
+    box-shadow: 0px 1px 5px #000000a0;
 }
 #about p{
     margin-left: 10%;
@@ -42,7 +66,7 @@ header ul li a:link, a:visited, a:active, a:hover{
     padding: 20px 10px;
     align-content: center;
     text-align: center;
-    box-shadow: 0px 1px 5px #4fab27;
+    box-shadow: 0px 1px 5px #000000a0;
 }
 #educators ul{
     margin: 5px;
