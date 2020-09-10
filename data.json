@@ -1,17 +1,11 @@
 {
     "educators": [
         {
-            "name": "Hossein",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "contact": "Telegram: @shkatebi97<br><br>Instagram: @s.h.katebi97",
-            "skype": "s.h.katebi97@outlook.com",
-            "pic": "https://picsum.photos/seed/hossein/200/300"
-        },{
-            "name": "Sadra Nasiri",
-            "description": "Sadra's description",
-            "contact": "Telegram: @sadra_nsri",
+            "name": "Dr. Maziar Goudarzi",
+            "description": "Dr.'s description",
+            "contact": "",
             "skype": "xxxxxxxxxxxx@outlook.com",
-            "pic": "sadra_nasiri.jpg"
+            "pic": "dr_goudarzi.jpg"
         },{
             "name": "Navid Reza Asadi",
             "description": "Navid's description",
@@ -25,11 +19,17 @@
             "skype": "xxxxxxxxxxxx@outlook.com",
             "pic": "hossein_sojoodi.jpg"
         },{
-            "name": "Dr. Maziar Goudarzi",
-            "description": "Dr.'s description",
-            "contact": "",
+            "name": "Sadra Nasiri",
+            "description": "Sadra's description",
+            "contact": "Telegram: @sadra_nsri",
             "skype": "xxxxxxxxxxxx@outlook.com",
-            "pic": "dr_goudarzi.jpg"
+            "pic": "sadra_nasiri.jpg"
+        },{
+            "name": "Hossein",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "contact": "Telegram: @shkatebi97<br><br>Instagram: @s.h.katebi97",
+            "skype": "s.h.katebi97@outlook.com",
+            "pic": "https://picsum.photos/seed/hossein/200/300"
         }
     ]
 }
